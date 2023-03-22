@@ -1,0 +1,516 @@
+<!--Begin-Navbar-->
+<nav class="navbar navbar-expand-lg" appScrollManager>
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex d-lg-none" href="#">APP AUDIT</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item pe-lg-5">
+          <a class="navbar-brand d-none d-lg-block" aria-current="page" 
+            >APP AUDIT</a
+          >
+        </li>
+        <li class="nav-item ps-lg-5">
+          <a class="nav-link" aria-current="page" appScrollAnchor="home" (click)="scrollPoint('home')" >Home</a>
+        </li>
+        <li class="nav-item ps-lg-5">
+          <a class="nav-link" (click)="scrollPoint('services')">Our Services</a>
+        </li>
+        <li class="nav-item ps-lg-5">
+          <a class="nav-link" appScrollAnchor="about" (click)="scrollPoint('about')"  >About Us</a>
+        </li>
+        <li class="nav-item ps-lg-5">
+          <a class="nav-link" appScrollAnchor="contact" (click)="scrollPoint('contact')" >Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--End-Navbar-->
+<!--Begin-Main-->
+<section class="main" data-aos="fade-down" id="home">
+  <div class="main-text">
+    <h1>Accountants, Business & Financial Advisers</h1>
+    <p class="text-center">
+      Our Quest is to help our clients achieve prosperity, a secure future and
+      peace of mind. We do <br />
+      this by supporting our clients, using our knowledge to help them run more
+      successful, <br />
+      profitable, and enjoyable businesses.
+    </p>
+    <a href="">Get in Touch</a>
+  </div>
+</section>
+<!--End-Main-->
+<!--Begin-Services-->
+<section class="services" id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div
+          class="card d-flex-flex-column read-more-card"
+          data-aos="fade-right"
+        >
+          <div>
+            <div class="h1"><h1>Our Services</h1></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat volutpat. Ut wisi enim ad minim eros et accumsan et iusto
+              odio dignissim qui blandit praesent luptatum zzril delenit augue
+              duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+              cons
+            </p>
+            <div class="d-flex justify-content-center">
+              <a class="read-button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="row">
+      <!--Begin-Col--> 
+          <div class="col-lg-4">
+            <div
+              class="card d-flex flex-column services-card "
+              data-aos="fade-left"
+            >
+              <img src="./assets/icons/accountancy.png" alt="" />
+              <h1>
+                Accountancy & <br />
+                Business Services
+              </h1>
+            </div>
+          </div>
+          <!--End-Col-->
+          <!--Begin-Col-->
+          <div class="col-lg-4">
+            <div
+              class="card d-flex flex-column services-card"
+              data-aos="fade-left"
+            >
+              <img src="./assets/icons/finance.png" alt="" />
+              <h1>Raising Finance</h1>
+            </div>
+          </div>
+          <!--End-Col-->
+          <!--Begin-Col-->
+          <div class="col-lg-4">
+            <div
+              class="card d-flex flex-column services-card"
+              data-aos="fade-left"
+            >
+              <img src="./assets/icons/research.png" alt="" />
+              <h1>
+                Research & <br />
+                Development
+              </h1>
+            </div>
+          </div>
+          <!--End-Col-->
+          <!--Begin-Col-->
+          <div class="col-lg-4">
+            <div
+              class="card d-flex flex-column services-card"
+              data-aos="fade-left"
+            >
+              <img src="./assets/icons/tax.png" alt="" />
+              <h1>Tax</h1>
+            </div>
+          </div>
+          <!--End-Col-->
+          <!--Begin-Col-->
+          <div class="col-lg-4">
+            <div
+              class="card d-flex flex-column services-card"
+              data-aos="fade-left"
+            >
+              <img src="./assets/icons/restructuring.png" alt="" />
+              <h1>Restructuring</h1>
+            </div>
+          </div>
+          <!--End-Col-->
+          <!--Begin-Col-->
+          <div class="col-lg-4">
+            <div
+              class="card d-flex flex-column services-card"
+              data-aos="fade-left"
+            >
+              <img src="./assets/icons/family.png" alt="" />
+              <h1>
+                Family & <br />
+                Company Wills
+              </h1>
+            </div>
+          </div>
+          <!--End-Col-->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--End-Services-->
+<!--Begin-Contact-->
+<section class="contact" data-aos="fade-up-right" >
+  <div class="contant-low-div">
+    <h2>Ready to make a difference?</h2>
+    <a class="contact-button">Contact Us</a>
+  </div>
+  <div class="contact-img"></div>
+</section>
+<!--End-Contact-->
+<!--Begin-About-Us-->
+<section class="about-us" data-aos="zoom-in-down"  id="about">
+  <div class="about-us-title">
+    <h3>About us</h3>
+  </div>
+  <div class="about-text">
+    <p>
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+      nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
+      wisi enim ad minim eros et accumsan et iusto odio dignissim qui blandit
+      praesent luptatum zzril delenit augue duis dolore te feugait nulla
+      facilisi. consectetuer adipiscing elit, sed diam nonummy nibh euismod
+      tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
+      minim eros et accumsan et iusto odio dignissim qui blandit praesent
+      luptatum zzril deledolore te feugait nulla facilisi.reet dolore mag Lorem
+      ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nib
+    </p>
+  </div>
+  <div class="read-more-aboutus d-flex justify-content-center pt-5">
+    <a class="about-us-button" style="font-weight: 300;">Read More</a>
+  </div>
+</section>
+<!--End-About-Us-->
+<!--Begin-Faqs-->
+<section class="faqs">
+  <div class="container faq-container">
+    <div class="row">
+      <div class="col-lg-6 onky-phone" data-aos="fade-right">
+        <div class="title">
+          <h1>FAQs</h1>
+        </div>
+        <div class="under-title">
+          <h3>
+            Lorem ipsum <br />
+            dolor sit Amet
+          </h3>
+        </div>
+        <div class="description">
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+            volutpat.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                Lorem ipsum dolor sit amet, con adipiscing ?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is
+                shown by default, until the collapse plugin adds the appropriate
+                classes that we use to style each element. These classes control
+                the overall appearance, as well as the showing and hiding via
+                CSS transitions. You can modify any of this with custom CSS or
+                overriding our default variables. It's also worth noting that
+                just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+              Index             Lorem ipsum dolor sit amet, consectetuer adcing ?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Lorem ipsum dolor sit amet, consectetuer adipiscing tuer
+                adipiscing ?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Lorem ipsum dolor sit amet, consectetuer adipiscing ?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Lorem ipsum dolor sit amet, con adipiscing ?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--End-Faqs-->
+<!--Begin-Contact-Us-->
+<section class="contact-us" id="contact" >
+  <div class="container">
+    <div
+      class="comtact-us-form d-grid justify-content-center"
+      data-aos="zoom-out-right"
+    >
+      <div class="form-title">
+        <h2>Contact Us</h2>
+      </div>
+      <div class="name-inpt pt-3 pb-3">
+        <input class="contact-input" type="text" placeholder="Name" />
+      </div>
+      <div class="phonenumber pt-3 pb-3">
+        <input class="contact-input" type="text" placeholder="Phone Number" />
+      </div>
+      <div class="email pt-3 pb-3">
+        <input class="contact-input" type="text" placeholder="Email" />
+      </div>
+      <div class="message pt-3 pb-3">
+        <input class="contact-input2" type="text" placeholder="Message" />
+      </div>
+      <div class="send-message pt-3 pb-3 d-flex justify-content-start">
+        <a class="contact-us-button">SEND MESSAGE</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!--End-Contact-Us-->
+<!--Begin-Footer-->
+<footer class="">
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 first-cll mb-3 ">
+        <form>
+          <h2 class="footer-name">App Audit</h2>
+          <div class="pt-4 pb-4 d-inline-flex">
+            <img
+              style="margin-right: 10px"
+              src="./assets/img/Icon awesome-instagram.svg"
+              alt=""
+            />
+            <img
+              style="margin-right: 10px"
+              src="./assets/img/Path 39149.svg"
+              alt=""
+            />
+            <img
+              style="margin-right: 10px"
+              src="./assets/img/Path 39150.svg"
+              alt=""
+            />
+          </div>
+          <div class="d-flex flex-column flex-sm-row w-75 gap-2 pb-3">
+            <input
+              id="newsletter1"
+              type="text"
+              class="form-control footer-input"
+              placeholder="Email address"
+              style=""
+            />
+          </div>
+          <button class="btn subscribe" type="button">Subscribe</button>
+        </form>
+      </div>
+      <div class="col-lg-2 mb-3 col-md-6 mrg-for-cl first-cll">
+        <h5 class="footer-color">Pages</h5>
+        <ul class="nav1 flex-column ">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0">Home</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0">Services</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0">AboutUs</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-3 mrg-for-cl first-cll">
+        <h5 class="footer-color">Contacts</h5>
+        <ul class="nav flex-column nav2">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0">info@accounting.com</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0"
+              ><img src="./assets/img/Icon feather-smartphone.svg" /> +123
+              456 789</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-3 mrg-for-cl mrg-for-cl2 first-cll">
+        <h5 class="footer-color">Locations</h5>
+        <ul class="nav flex-column nav3">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0"
+              ><img
+                src="./assets/img/Icon material-location-on.svg"
+                alt=""
+              />
+              LONDON UK</a
+            >
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0"
+              >First Floor, St Magnus <br />
+              House, 3 Lower <br />
+              Thames St, Bridge</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div
+      class="d-flex flex-column flex-sm-row justify-content-center py-4 my-4"
+    >
+      <p style="color: #ffff">
+        Copyright © 2021 - 2022 Division of Accounting All Rights Reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+<!--End-Footer-->

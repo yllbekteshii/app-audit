@@ -1,0 +1,509 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --font-services-blue: #155879;
+  --font-about-us: #337b9b;
+  --darkblue: #014564;
+  --footer: #1899b9;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*begin-navbar*/
+.navbar {
+  background-color: #014564;
+}
+
+.navbar-brand {
+  font-size: 35px !important;
+  color: #fff !important;
+}
+
+.nav-item a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 200;
+  
+}
+
+
+.nav-item a:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-item a:focus {
+  color: #fff !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.navbar-toggler {
+  background-color: #fff !important;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+}
+
+/*end-navbar*/
+/*begin-main*/
+
+.main {
+  background-image:linear-gradient(
+    rgba(0, 90, 130, 0.8),
+    rgba(0, 90, 130, 0.8)
+  ),        url(../../assets/img/MaskGroup1.svg);;
+  height: 90vh;
+  background-size: cover;
+}
+
+.main-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  color: white;
+
+}
+
+.main h1,
+.main p,
+.main a {
+  color: #fff;
+
+}
+
+.main h1 {
+  font-size: 37px;
+  padding-bottom: 0.3rem;
+  font-weight: 400;
+}
+
+.main p {
+  font-size: 15px;
+  padding-bottom: 0.3rem;
+}
+
+.main a {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 25px;
+  text-decoration: none;
+  padding: 6px 26px;
+  font-size: 18px;
+}
+
+.main a:hover {
+  color: black;
+  background-color: white;
+  transition: all ease 0.4s;
+}
+
+/*end-main*/
+/*begin-services*/
+.services {
+  margin-top: 8rem;
+
+}
+.services .card {
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  background-color: rgba(13, 95, 133, 0.2);
+}
+.read-button {
+  background-color: transparent;
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 25px;
+  text-decoration: none;
+  padding: 6px 26px;
+  font-size: 18px;
+  color: white;
+  margin: 0 !important;
+}
+.read-more-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 535px;
+  border-radius: 25px !important;
+  background-image: linear-gradient(
+    rgba(0, 90, 130, 0.8),
+    rgba(0, 90, 130, 0.8)
+  ),        url(../../assets/img/MaskGroup2.svg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.read-more-card p {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  padding: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+.h1 {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+.card img {
+  width: 100px;
+}
+.services-card {
+  height: 253px;
+  border: none !important;
+  padding: 1.5rem;
+}
+.services-card h1 {
+  padding-top: 20px;
+  font-size: 20px;
+  color: #155879;
+  font-weight: 600;
+}
+
+.contant-low-div {
+  width: 100%;
+  height: 80px;
+  background-color: #005a82;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-button {
+  background-color: transparent;
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 25px;
+  text-decoration: none;
+  padding: 6px 26px;
+  font-size: 18px;
+  color: #005a82;
+  margin: 0 !important;
+  background-color: white;
+}
+.contant-low-div h2 {
+  color: white;
+  font-size: 30px;
+  margin-right: 50px;
+  font-weight: initial;
+}
+.contact-img {
+  background-image: linear-gradient(
+      rgba(0, 90, 130, 0.6),
+      rgba(0, 90, 130, 0.6)
+    ),
+    url(../../assets/img/background-concept-with-business-people-silhouette-work-double-exposure-light-effects.png);
+  background-color: #005a82;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 244px;
+  width: 100%;
+  background-size: cover;
+}
+.about-us-title {
+  text-align: center;
+  padding: 2rem;
+  font-size: 50px;
+  color: #337b9b;
+  display: flex;
+  justify-content: center;
+}
+.about-us-title h3{
+  font-weight: 300;
+}
+.about-text {
+  text-align: center;
+  word-break: break-all;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: #337b9b;
+  padding: 0rem 13rem;
+}
+.about-text p{
+  font-size: 14px;
+    font-weight: 300;
+}
+.about-us-button {
+  background-color: transparent;
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #337b9b;
+  border-radius: 25px;
+  text-decoration: none;
+  padding: 6px 26px;
+  font-size: 18px;
+  color: #005a82;
+  margin: 0 !important;
+}
+.read-more-aboutus {
+  padding-bottom: 6rem;
+}
+.faqs {
+  background-color: #e6eff3;
+}
+.faq-container {
+  padding-left: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.title h1 {
+  font-size: 40px;
+  color: #337b9b;
+}
+.under-title h3 {
+  color: #014564;
+}
+.description p {
+  color: #337b9b;
+}
+.accordion-button {
+  background-color: transparent;
+  color: #337b9b;
+  font-size: 15px;
+}
+.accordion-item {
+  background-color: transparent;
+  border: none;
+}
+.accordion-button::after {
+  color: #337b9b;
+}
+.accordion-button.collapsed {
+  color: #337b9b;
+}
+.contact-input {
+  background: #f5f5f5;
+  border: none;
+  width: 600px;
+  height: 48px;
+  padding: 11px;
+  font-size: 13px;
+
+  font-weight: bolder;
+  -webkit-box-shadow: 0px 13px 11px -3px rgba(112, 112, 112, 0.17);
+  -moz-box-shadow: 0px 13px 11px -3px rgba(112, 112, 112, 0.17);
+  box-shadow: 0px 13px 11px -3px rgba(112, 112, 112, 0.17);
+  border-radius: 10px;
+}
+.contact-input:focus-visible{
+  border: none !important;
+}
+.contact-input2 {
+  background: transparent;
+  border: 1px solid #b1b1b133;
+  font-size: 13px;
+  width: 600px;
+  height: 150px;
+  padding: 11px;
+  padding-bottom:110px;
+  font-weight: bolder;
+  -webkit-box-shadow: 0px 13px 11px -3px rgba(112, 112, 112, 0.17);
+  -moz-box-shadow: 0px 13px 11px -3px rgba(112, 112, 112, 0.17);
+  box-shadow: 0px 13px 11px -3px rgba(112, 112, 112, 0.17);
+  border-radius: 10px;
+}
+
+.comtact-us-form{
+    padding-top: 7rem;
+}
+.form-title h2{
+    font-size: 27px;
+    color: #014564;
+    font-weight: bold;
+}
+.contact-us-button{
+    background-color: transparent;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 6px 26px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    margin: 0 !important;
+}
+footer{
+    background-color: #014564;
+}
+.container_fake{
+  padding: 8rem;
+  padding-top: 7rem !important;
+  padding-bottom: 1rem !important;
+}
+.footer-color{
+  color: #1899B9;
+}
+
+.footer-name{
+  color: white;
+}
+.footer-input{
+  border: 1px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 10px;
+    color: #ffff !important;
+    height: 50px;
+    width: 269px;
+}
+.subscribe{
+  background-color: #1899B9;
+  color: #ffff;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 0;
+}
+.nav li a{
+font-size: 13.5px;
+}
+.nav1{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-right: -30px;
+}
+.nav2{
+  margin-right: -84px ;
+  display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+.nav3{
+  margin-right: -70px ;
+  display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+.nav2 a{
+  font-size: 15px;
+
+}
+.nav1 a{
+  font-size: 15px;
+
+}
+.nav3 a{
+  font-size: 15px;
+
+}
+.mrg-for-cl{
+  margin-top: 25px;
+}
+.footer-input::placeholder{
+  color: #ffff;
+}
+@media (min-width:992px){
+.first-cll{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+}
+@media (max-width: 768px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .services-card{
+    justify-content: center;
+  }
+
+  .main-text h1 {
+    text-align: center;
+  }
+  .nav3{
+    margin: 0;
+  }
+}
+@media (max-width: 1024px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+  
+    .contact-img{
+     height: 185px;
+    }
+  }
+
+  @media(max-width:768px){
+    .contact-img{
+        height: 139px ;
+    }
+    .services-card{
+      align-items: center;
+    }
+  }
+  
+  @media(max-width:425px){
+    .services-card{
+      align-items: center;
+    }
+    .onky-phone{
+      text-align: center;
+    }
+        .about-text{
+            padding: 1rem;
+        }
+        .contant-low-div h2{
+            margin: 0;
+            padding: 1rem;
+        }
+        .contact-img{
+            height: 77px;
+        }
+        .contact-input{
+            width: 100%;
+        }
+        .contact-input2{
+            width: 100%;
+        }
+        .mrg-for-cl2{
+        margin: 0;
+        }
+        .nav3{
+          margin: 0;
+        }
+        .nav2{
+          margin: 0;
+        }
+        .nav1{
+          margin: 0;
+        }
+
+      .faq-container{
+        padding-left: 0;
+        }
+  }
+  
+  @media(min-width:1440px){
+    .contact-img{
+      height: 260px;
+    }
+  }
